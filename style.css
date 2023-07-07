@@ -43,6 +43,19 @@ p {
     margin: 40px 0;
 }
 
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 body {
     width: 100%;
 }
@@ -237,20 +250,20 @@ body {
 }
 
 #product1 .pro .des h4{
-    color: #1a1a1a;
+    color: #000;
 }
 
 #product1 h2{
-    color: #1a1a1a;
+    color: #000;
 }
 
 #product1 p{
-    color: #1a1a1a;
+    color: #000;
 }
 
 #product1 .pro .des h5{
     padding-top: 7px;
-    color: #1a1a1a;
+    color: #000;
     font-size: 14px;
 }
 
@@ -277,4 +290,39 @@ body {
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner/b2.jpg") ;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: #088178;
+    font-size: 16px;
+}
+
+#banner h2{
+    color: #000;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #ef3636;
+    
+}
+
+#banner button:hover{
+    background: #088178;
+    color: #fff;
+
 }
