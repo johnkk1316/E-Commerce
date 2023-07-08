@@ -130,8 +130,13 @@ body {
     padding-bottom: 15px;
 }
 
-#hero h1,h2,h4,p{
+#hero h1,h2,h4{
     color:#088178 ;
+}
+
+#hero p{
+    color: #088178;
+    font-size: 20px;
 }
 
 #hero h1{
@@ -234,7 +239,7 @@ body {
 }
 
 #product1 .pro img{
-    width: 50%;
+    width: 60%;
     border-radius: 40px;
 }
 
@@ -258,7 +263,8 @@ body {
 }
 
 #product1 p{
-    color: #000;
+    color: #088178;
+    font-size: 20px;
 }
 
 #product1 .pro .des h5{
@@ -307,7 +313,7 @@ body {
 
 #banner h4{
     color: #088178;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #banner h2{
